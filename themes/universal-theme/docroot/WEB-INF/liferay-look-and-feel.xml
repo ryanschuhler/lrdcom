@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 6.2.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_6_2_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>6.2.10+</version>
+	</compatibility>
+	<theme id="osb-universal" name="OSB Universal">
+		<root-path>/</root-path>
+		<templates-path>${root-path}/templates</templates-path>
+		<images-path>${root-path}/images</images-path>
+		<template-extension>ftl</template-extension>
+		<settings>
+			<setting configurable="true" key="body-font" value="15px/1.5 Arial, Helvetica, sans-serif" />
+			<setting configurable="true" key="color-accent" value="#00B8B9" />
+			<setting configurable="true" key="color-alt-font" value="#909295" />
+			<setting configurable="true" key="color-alt-primary" value="#005B96" />
+			<setting configurable="true" key="color-alt-secondary" value="#1B3A6A" />
+			<setting configurable="true" key="color-complementary" value="#F5A11D" />
+			<setting configurable="true" key="color-element" value="#E3E4E5" />
+			<setting configurable="true" key="color-font" value="#4C4C4E" />
+			<setting configurable="true" key="color-light" value="#FFF" />
+			<setting configurable="true" key="color-primary" value="#1C75B9" />
+			<setting configurable="true" key="color-secondary" value="#124680" />
+			<setting configurable="true" key="custom-css-article-id" value="" />
+			<setting configurable="true" key="custom-footer-article-id" value="" />
+			<setting configurable="true" key="custom-footer-nav" type="textarea" value='[
+				[
+					{
+						icon_name: "icon-facebook-sign",
+						url: "http://www.facebook.com/pages/Liferay/45119213107"
+					},
+					{
+						icon_name: "icon-twitter-sign",
+						url: "http://www.linkedin.com/company/83609?trk=NUS_CMPY_TWIT"
+					},
+					{
+						icon_name: "icon-linkedin-sign",
+						url: "http://www.twitter.com/liferay"
+					},
+					{
+						icon_name: "icon-youtube-sign",
+						url: "http://www.youtube.com/user/liferayinc"
+					},
+					{
+						icon_name: "icon-rss-sign",
+						url: "/community/blogs"
+					}
+				]
+			]' />
+			<setting configurable="true" key="display-logo" options="true,false" type="select" value="true" />
+			<setting configurable="true" key="display-social-icons" options="true,false" type="select" value="false" />
+			<setting configurable="true" key="h1-size" value="3em" />
+			<setting configurable="true" key="h2-size" value="2.5em" />
+			<setting configurable="true" key="h3-size" value="1.5em" />
+			<setting configurable="true" key="max-full" value="1200px" />
+			<setting configurable="true" key="max-large" value="960px" />
+			<setting configurable="true" key="max-medium" value="720px" />
+			<setting configurable="true" key="max-small" value="480px" />
+			<setting configurable="true" key="navigation-behavior" options="fixed,smart-scroll,static" type="select" value="static" />
+			<setting configurable="true" key="navigation-type" options="none,on-page,relative,root" type="select" value="root" />
+			<setting configurable="true" key="open-graph-image" value="" />
+			<setting configurable="true" key="open-graph-title" value="" />
+			<setting configurable="true" key="open-graph-url" value="" />
+			<setting configurable="true" key="padding-large" value="3em" />
+			<setting configurable="true" key="padding-small" value=".5em" />
+			<setting configurable="true" key="padding-standard" value="1em" />
+			<setting key="portlet-setup-show-borders-default" value="false" />
+			<setting configurable="true" key="typekit-id" value="see0ypk" />
+		</settings>
+		<layout-templates>
+			<custom>
+				<layout-template id="dynamic_columns" name="Dynamic Columns">
+					<template-path>/layouttpl/custom/dynamic_columns.tpl</template-path>
+					<wap-template-path>/layouttpl/custom/dynamic_columns.tpl</wap-template-path>
+					<thumbnail-path>/layouttpl/custom/dynamic_columns.png</thumbnail-path>
+				</layout-template>
+			</custom>
+		</layout-templates>
+	</theme>
+</look-and-feel>

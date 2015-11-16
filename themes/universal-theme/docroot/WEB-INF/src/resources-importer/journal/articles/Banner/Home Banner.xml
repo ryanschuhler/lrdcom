@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="media" type="text" index-type="keyword" index="0">
+		<dynamic-element name="image" index="0" type="document_library" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[[$dl-reference=/tools.jpg$]]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element name="video" index="0" type="document_library" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element name="fallback_video" index="0" type="document_library" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element name="article_id" index="0" type="text" index-type="keyword">
+			<dynamic-element name="article_position" index="0" type="list" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[justify-start]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="heading" type="text" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[Universal Theme]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="sub_heading" type="text_box" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[the theme to end all .wars]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="position" type="list" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[Center]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="opacity" type="list" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="height" type="text" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[600px]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="css" type="text_box" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+</root>

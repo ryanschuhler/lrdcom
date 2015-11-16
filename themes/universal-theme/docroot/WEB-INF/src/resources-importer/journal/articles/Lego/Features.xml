@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+
+<root available-locales="en_US" default-locale="en_US">
+	<dynamic-element name="section" type="text" index-type="keyword" index="0">
+		<dynamic-element name="block" index="0" type="text" index-type="keyword">
+			<dynamic-element name="element" index="0" type="text" index-type="keyword">
+				<dynamic-element name="tag" index="0" type="text" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[h3]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-element name="content" index="0" type="text_box" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[Configurable]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-element name="element_class" index="0" type="text" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element name="block_class" index="0" type="text" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element name="width" index="0" type="list" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[100]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element name="block" index="1" type="text" index-type="keyword">
+			<dynamic-element name="element" index="1" type="text" index-type="keyword">
+				<dynamic-element name="tag" index="1" type="text" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[h3]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-element name="content" index="1" type="text_box" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[Utility CSS and Javascript]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-element name="element_class" index="1" type="text" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element name="block_class" index="1" type="text" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element name="width" index="1" type="list" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[100]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element name="block" index="2" type="text" index-type="keyword">
+			<dynamic-element name="element" index="2" type="text" index-type="keyword">
+				<dynamic-element name="tag" index="2" type="text" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[h3]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-element name="content" index="2" type="text_box" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[CMS Templates]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-element name="element_class" index="2" type="text" index-type="keyword">
+					<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+				</dynamic-element>
+				<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element name="block_class" index="2" type="text" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-element name="width" index="2" type="list" index-type="keyword">
+				<dynamic-content language-id="en_US"><![CDATA[100]]></dynamic-content>
+			</dynamic-element>
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-element name="section_class" index="0" type="text" index-type="keyword">
+			<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+		</dynamic-element>
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="article_class" type="text" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="css" type="text_box" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+	<dynamic-element name="custom_js" type="text_box" index-type="keyword" index="0">
+		<dynamic-content language-id="en_US"><![CDATA[]]></dynamic-content>
+	</dynamic-element>
+</root>

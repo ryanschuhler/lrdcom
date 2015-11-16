@@ -1,0 +1,42 @@
+.on-screen {
+	&.slide-left, &.slide-right, &.slide-up, .slide-left, .slide-right, .slide-up {
+		@include transform(translate(0, 0));
+		@include transition(all 0.6s ease);
+
+		opacity: 1;
+	}
+
+	&.delay-1, .delay-1 {
+		@include transition-delay(0.2s);
+	}
+
+	&.delay-2, .delay-2 {
+		@include transition-delay(0.4s);
+	}
+
+	&.delay-3, .delay-3 {
+		@include transition-delay(0.6s);
+	}
+}
+
+.slide-left, .slide-right, .slide-up {
+	opacity: 0;
+}
+
+.slide-left {
+	@include transform(translate(200px, 0));
+}
+
+.slide-right {
+	@include transform(translate(-200px, 0));
+}
+
+.slide-up {
+	@include transform(translate(0, 200px));
+}
+
+@include respond-to(phone) {
+	.responsive-no-transition {
+		@include transition(none !important);
+	}
+}

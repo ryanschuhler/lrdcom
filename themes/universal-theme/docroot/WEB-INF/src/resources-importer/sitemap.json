@@ -1,0 +1,30 @@
+{
+	"layoutTemplateId": "1_column",
+	"publicPages": [
+		{
+			"columns": [
+				[
+					"Home Banner.xml"
+				]
+			],
+			"friendlyURL": "/home",
+			"name": "Home",
+			"title": "Home"
+		},
+		{
+			"columns": [
+				[
+					"Features.xml"
+				]
+			],
+			"friendlyURL": "/features",
+			"name": "Features",
+			"title": "Features"
+		},
+		{
+			"friendlyURL": "/about",
+			"name": "About",
+			"title": "About"
+		}
+	]
+}

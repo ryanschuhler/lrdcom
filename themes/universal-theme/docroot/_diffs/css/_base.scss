@@ -1,0 +1,136 @@
+&.webkit {
+	.w33 {
+		width: 33.333%;
+	}
+
+	.w66 {
+		width: 66.666%;
+	}
+}
+
+#banner {
+	@include transform(translateY(0));
+	@include transition(transform .5s);
+
+	background: rgba(255, 255, 255, .9);
+	border-bottom: 1px solid;
+	z-index: 100;
+
+	.logo img {
+		max-height: 30px;
+	}
+}
+
+#main-content {
+	margin: 20px auto;
+
+	&.columns-1 {
+		margin: 0;
+		max-width: none;
+
+		.portlet-boundary {
+			margin: 0 auto;
+		}
+	}
+
+	.portlet-borderless-container {
+		min-height: 0;
+	}
+}
+
+#wrapper {
+	min-width: 320px;
+	padding: 0;
+}
+
+.controls-hidden.dockbar-split {
+	.nav-account-controls, .nav-add-controls li {
+		display: none;
+	}
+
+	.dockbar .navbar-inner .nav-add-controls li.toggle-controls {
+		display: block;
+
+		&, a.toggle-controls-link {
+			background-color: transparent;
+		}
+	}
+}
+
+.dockbar-split .dockbar .navbar-inner .nav-account-controls {
+	right: 0;
+	text-align: right;
+	top: 100px;
+
+	li {
+		float: none;
+	}
+
+	ul {
+		text-align: left;
+	}
+
+	.dropdown-menu {
+		left: auto;
+		right: 0;
+
+		&:before, &:after {
+			left: auto;
+			right: 10px;
+		}
+	}
+}
+
+.fixed-navigation #banner, .smart-scroll-navigation #banner {
+	position: fixed;
+	width: 100%;
+}
+
+.hide-banner #banner {
+	@include transform(translateY(-100%));
+}
+
+.navigation {
+	a {
+		display: block;
+		padding: 5px;
+		text-decoration: none;
+	}
+
+	i {
+		font-size: 2em;
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+	}
+}
+
+.portlet-column {
+	&.portlet-column-only {
+		width: 100%;
+	}
+
+	&.yui3-dd-drop-active-valid {
+		background: #FFF;
+		border: 1px solid #DFDFDF;
+		margin: -1px;
+		min-height: 20px;
+	}
+
+	&.yui3-dd-drop-over {
+		background: #DFDFDF;
+	}
+}
+
+@include respond-to(phone, tablet) {
+	body {
+		line-height: 1.675em;
+		padding: 0;
+	}
+
+	#navigation {
+		display: block;
+	}
+}

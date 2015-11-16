@@ -1,0 +1,83 @@
+.align-baseline {
+	@include align-items(baseline);
+}
+
+.align-center {
+	@include align-items(center);
+}
+
+.align-end {
+	@include align-items(flex-end);
+}
+
+.align-start {
+	@include align-items(flex-start);
+}
+
+.align-stretch {
+	@include align-items(stretch);
+}
+
+.block-container {
+	@include box-sizing(border-box);
+	@include flexbox;
+	@include flex-wrap(wrap);
+
+	&.no-padding {
+		padding: 0;
+	}
+
+	.block {
+		@include box-sizing(border-box);
+
+		@include respond-to(phone) {
+			width: 100% !important;
+		}
+	}
+}
+
+.full-screen {
+	max-width: none !important;
+
+	.portlet-column {
+		max-width: none;
+	}
+}
+
+.justify-center {
+	@include justify-content(center);
+}
+
+.justify-end {
+	@include justify-content(flex-end);
+}
+
+.justify-space-around {
+	@include justify-content(space-around);
+}
+
+.justify-space-between {
+	@include justify-content(space-between);
+}
+
+.justify-start {
+	@include justify-content(flex-start);
+}
+
+.max-full, .max-lg, .max-med, .max-sm {
+	@include box-sizing(border-box);
+
+	margin: 0 auto;
+}
+
+@include respond-to(phone, tablet) {
+	#wrapper {
+		.responsive-justify-center {
+			align-items: center;
+		}
+
+		.responsive-text-center {
+			text-align: center;
+		}
+	}
+}
